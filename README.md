@@ -54,5 +54,5 @@ Esperamos que esta Operação Bancária em Python seja útil para realizar opera
 
 ## Autor
 
-Este projeto foi desenvolvido por [seu-nome-de-usuario](https://github.com/SciDevPablo).
+Este projeto foi desenvolvido por(https://github.com/SciDevPablo).
 
