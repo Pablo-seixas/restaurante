@@ -1,0 +1,20 @@
+def informar_tempo_entrega(nome_restaurante, tempo_estimado_entrega):
+    # Função para formatar a mensagem com o tempo estimado de entrega do restaurante
+    mensagem = f"O restaurante {nome_restaurante} entrega em {tempo_estimado_entrega} minutos."
+    return mensagem
+
+def main():
+    # Obter os valores de entrada do usuário
+    nomeRestaurante = input()
+    tempoEstimadoEntrega = int(input())
+
+    # Chamar a função informar_tempo_entrega para obter a mensagem formatada
+    mensagem = informar_tempo_entrega(nomeRestaurante, tempoEstimadoEntrega)
+
+    # Exibir a mensagem ao usuário
+    print(mensagem)
+
+if __name__ == "__main__":
+    # Inicializa a função principal
+    main()
+
